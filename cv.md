@@ -48,11 +48,13 @@
 - September 2004 – May 2010
 
 **Belarusian Academy of the Interior ministry** 
+
 *Economic law*
 
 - _online_ 30.01.2021 – nowadays
 
 **RS-School **JS/FE 2021Q1** 
+
 *Frontend developer*
 
 ## WORK EXPERIENCE
