@@ -82,7 +82,31 @@
 **Copywriter at [21vek.by](https://www.21vek.by/), Minsk**
 
 *writing seo-texts, articles, posts фтв scenario for social networks*
+## My code
 
+**Kata Palindrome Strings**
+
+const reverseString = (str) => {
+let reversed = '';
+
+for (const c of str) {
+reversed = c + reversed;
+}
+  
+return reversed;
+};
+
+const isPalindrome = (input) => {
+const str = String(input);
+
+return str === reverseString(str);
+}
+
+**Kata Anagram Detection**
+
+const sortString = str => str.split('').sort().join('');
+
+const isAnagram = (str1, str2) => sortString(str1.toLowerCase()) === sortString(str2.toLowerCase());
 
 ## SKILLS
 
