@@ -51,9 +51,9 @@
 
 *Economic law*
 
-- _online_ 30.01.2021 – nowadays
+- _online_ 05.07.2021 – nowadays
 
-**RS-School **JS/FE 2021Q1** 
+**RS-School **JS/FE Pre-School** 
 
 *Frontend developer*
 
