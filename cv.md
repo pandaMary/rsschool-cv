@@ -51,9 +51,9 @@
 
 *Economic law*
 
-- _online_ 05.09.2021 – nowadays
+- _online_ 05.07.2021 – nowadays
 
-**RS-School JS/FE 2021Q1** 
+**RS-School **JS/FE Pre-School** 
 
 *Frontend developer*
 
@@ -87,24 +87,27 @@
 
 **Kata Palindrome Strings**
 
-    const reverseString = (str) => {
-        let reversed = '';
-        for (const c of str) {
-        reversed = c + reversed; 
-        }
-    return reversed;
-    };
-    const isPalindrome = (input) => {
-    const str = String(input);
-    return str === reverseString(str);
-    }
+const reverseString = (str) => {
+let reversed = '';
+
+for (const c of str) {
+reversed = c + reversed;
+}
+  
+return reversed;
+};
+
+const isPalindrome = (input) => {
+const str = String(input);
+
+return str === reverseString(str);
+}
 
 **Kata Anagram Detection**
 
-    const sortString = str => str.split('').sort().join('');
+const sortString = str => str.split('').sort().join('');
 
-    const isAnagram = (str1, str2) => sortString(str1.toLowerCase()) === sortString(str2.toLowerCase());
-
+const isAnagram = (str1, str2) => sortString(str1.toLowerCase()) === sortString(str2.toLowerCase());
 
 ## SKILLS
 
