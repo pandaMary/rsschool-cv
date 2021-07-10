@@ -81,7 +81,8 @@
 
 **Copywriter at [21vek.by](https://www.21vek.by/), Minsk**
 
-*writing seo-texts, articles, posts фтв scenario for social networks*
+*writing seo-texts, articles, posts and scenario for social networks*
+
 ## My code
 
 **Kata Palindrome Strings**
