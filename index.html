@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+</head>
+
+<body>
+<header class="header">
+    <div class="header__logo">
+        <img src="./img/logo.jpg" alt="Аватарка" class="header__logo-pic" width="250" height="250">
+        <div class="header__bio">
+            <h1 class="header__header">Maryia Novikava</h1>
+            <ul class="header__list">
+                <li>Frontend developer</li>
+                <li>Krakow, Poland</li>
+                <li>+48 510 083 660</li>
+                <li>vlksm.33@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+        <h2 class="main__header">PROFILE</h2>
+        <div class="main__text">
+            <p> I'm a lawyer by my first education. But this profession didn't inspire me. So I decided to try doing what I
+                really like. I become writing texts as a blogger and made my first simple site by myself. I learned a lot
+                and that's why I could find work as a freelancer.
+            </p>
+            <p>I've worked as a copywriter and content-manager for last 10 years. I wrote texts on a variety of topics,
+                seo-texts, articles, posts and scenario for social networks, worked with different CMS, took part in
+                promoting successful Belarusian and Russian projects, helped create cool and useful resources for
+                people.
+            </p>
+            <p>For one project I had to learn the basic information about HTML/CSS and JS-script. It was interesting for me.
+                That's why I decide to go further and become a real JS-developer.
+            </p>
+        </div>
+    
+
+    <h2 class="main__header">EDUCATION</h2>
+        <ul class="main__list">
+            <li><span class="text-bold">September 2004 – May 2010</span>
+                <ul>
+                    <li><a href="https://www.amia.by/en/">Belarusian Academy of the Interior ministry</a></li>
+                    <li><span class="text-emphasis">Economic law</span></li>
+                </ul>
+            </li>
+            <li><span class="text-bold">March 2021</span>
+                <ul>
+                    <li><a href="https://netology.ru/">Нетология</a></li>
+                    <li><span class="text-emphasis"> Основы HTML и CSS</span></li>
+                </ul>
+            </li>
+            <li><span class="text-bold">March-Aprill 2021</span>
+                <ul>
+                    <li><a href="https://netology.ru/">Нетология</a></li>
+                    <li><span class="text-emphasis">Python-разработка для начинающих</span></li>
+                </ul>
+            </li>
+            <li><span class="text-bold">July 2021 – nowadays</span>
+                <ul>
+                    <li><a href="https://rs.school/">RS-School JS/FE Pre-School</a></li>
+                    <li><span class="text-emphasis">Frontend developer</span></li>
+                </ul>
+            </li>
+        </ul>
+
+    <h2 class="main__header">WORK EXPERIENCE</h2>
+        <ul class="main__list">
+            <li>
+                <span class="text-bold">January 2007 - September 2007</span>
+                <ul>
+                    <li><span class="text-emphasis">Сourt clerk</span>, Court Partizansky district of Minsk</li>
+                </ul>
+            </li>
+            <li>
+                <span class="text-bold">September 2007 - August 2008</span>
+                <ul>
+                    <li><span class="text-emphasis">HR-inspector</span>, <a href="http://www.sil.by/">Sil.by</a></li>
+                </ul>
+            </li>
+            <li>
+                <span class="text-bold">September 2008 - June 2010</span>
+                <ul>
+                    <li><span class="text-emphasis">Economist</span>, <a href="https://www.priorbank.by/eng/business">Priorbank</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <span class="text-bold">September 2010 – January 2018</span>
+                <ul>
+                    <li><span class="text-emphasis">Copywriter</span>,  freelance</li>
+                </ul>
+            </li>
+            <li>
+                <span class="text-bold">January 2018 – February 2021 </span>
+                <ul>
+                    <li>
+                        <span class="text-emphasis">SEO-copywriter</span>, <a href="https://www.21vek.by/">21vek.by</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+   <h2 class="main__header">My code</h2>
+       <pre>
+          <code> 
+             const reverseString = (str) => {
+             let reversed = '';
+                        
+             for (const c of str) {
+             reversed = c + reversed;
+             }
+             return reversed;
+             };
+                        
+             const isPalindrome = (input) => {
+             const str = String(input);
+                        
+             return str === reverseString(str);
+             }
+          </code>  
+        </pre> 
+    
+    <h2 class="main__header">SKILLS</h2>
+    <ul class="main__list__skills">
+        <li>★★☆☆☆ HTML</li>
+        <li>★★☆☆☆ CSS</li>
+        <li>★☆☆☆☆ JavaScript</li>
+    </ul>
+
+    <h2 class="main__header">LANGUAGES</h2>
+    <ul class="main__list__languages">
+        <li>★★★★★ Russian native speaker</li>
+        <li>★★★★☆ Belarusian native speaker</li>
+        <li>★★★☆☆ English B2 (Intermediate)</li>
+        <li>★☆☆☆☆ Polish (Begginer)</li>
+    </ul>
+
+    <h2 class="main__header">SOCIAL PROFILES</h2>
+        <ul class="main__list__social-profiles"> 
+            <li><span class="text-bold">Instagram:</span> @mashamirnaja</li>
+            <li><span class="text-bold">Telegram:</span> @pandamary</li>
+        </ul>
+
+</main>
+<footer class="footer">
+    <div class="footer__text">
+        <a href="https://rs.school/js/" class="footer__logo"><img src="./img/svg/rs_school_js.svg" width="50" 
+            height="20" alt="RS-School"></a>
+            <span class="text-bold"><a href="https://github.com/pandaMary">©pandaMary, 2021</a></span>
+    </div>
+</footer>
+</body>
+</html>
+
